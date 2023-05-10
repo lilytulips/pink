@@ -7,7 +7,7 @@ You will also be needed to _create a database_ to store the data thrown into the
 
 **INSTRUCTIONS**
 
-Sure, here are the steps to run a project locally using XAMPP and GitHub:
+Here are the steps to run a project locally using XAMPP and GitHub:
 
 1. **Install XAMPP**: Download and install XAMPP from the official website (https://www.apachefriends.org/index.html). Make sure to install the version of XAMPP that matches the requirements of the project which are PHP, MySQL, phpMyAdmin an Apache.
 
