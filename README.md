@@ -19,7 +19,7 @@ Sure, here are the steps to run a project locally using XAMPP and GitHub:
    
    Alternatively, you can _download_ the code from `<Code>` button above.
 
-3. **Move the project files**: Once you have cloned the repository, move the project files to the `htdocs` folder of XAMPP. This folder is typically located in the `C:\xampp` directory on Windows and `/Applications/XAMPP/htdocs` directory on Mac.
+3. **Move the project files**: Once you have cloned the repository, move the project files to the `htdocs` folder of XAMPP. This folder is typically located in the `C:\xampp` directory on Windows and `/Applications/XAMPP/htdocs` directory on Mac, the project files should be stored under a folder named `shoutitbox`.
 
 4. **Start XAMPP**: Start the XAMPP control panel and start the Apache and MySQL services.
 
@@ -29,7 +29,7 @@ Sure, here are the steps to run a project locally using XAMPP and GitHub:
 
 7. **Configure the project**: Configure the project by updating the database connection settings in the project files. Typically, these settings can be found in a file called `config.php` or `database.php`.
 
-8. **Run the project**: Open your web browser and go to `http://localhost/<project-folder>` to run the project. Replace `<project-folder>` with the name of the folder where you moved the project files in step 3.
+8. **Run the project**: Open your web browser and go to `http://localhost/shoutitbox` to run the project.
 
 That's it! You should now be able to run the project locally using XAMPP.
   
