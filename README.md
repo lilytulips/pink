@@ -1,4 +1,4 @@
-# pink
+# pink-it
 This is a simple web app to have people throw their words to a chat box so that people around then world, about pink month, breast cancer awareness!
 
 In conjuction on **Pink Month**, on October every year, I created a simple shout box so that people could express their words about he campaign. This simple webb app I named it "Pink it!". To have access to it, you have to run it **locally** on your local workspace and localhost, I recommend to use XAMPP.
