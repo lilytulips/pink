@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Andale Mono, monospace;
+    font-size: 15px;
+    line-height: 1.5cm;
+    background: #FDF8F7;
+}
+
+#container{
+    background: linear-gradient(#E8BDB5, #F4E5E2);
+    margin: 50px auto;
+    padding: 5px;  
+    overflow: auto;
+    width: 70%;
+    min-height: 650px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 20px #e4d9d7;
+}
+header h1{
+    color: #F2717E;
+    font-family: Georgia, monospace, serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px #714861;
+    margin: 50px auto;
+    padding: 5px;  
+}
+
+header h2{
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 1px 1px #714F48;
+    padding: 15px auto;
+}
+
+b{
+    font-weight: 300;
+    color: #F2717E;
+}
+
+#border-bottom-short{
+    border-bottom: 2px solid #FFFFFF;
+    position: relative;
+    margin: 0 15px;
+}
+
+#shout{
+    width: 85%;
+    background: #FFFFFF;
+    height: 650px;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 15px;
+    line-height: normal;
+}
+
+.shout{
+    list-style: none;
+    padding: 15px;
+    line-height: normal;
+    border-bottom: 1px #CCCCCC dotted;
+}
+
+.shout span{
+    color: #707070;
+}
+
+pink{
+    color:#bd5762;
+    font-weight: bold;
+}
+
+#input{
+    width: 85%;
+    min-height: 80px;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+}
+
+#input input[type='text']{
+    font-family: Andale Mono, monospace;
+    font-size: 15px;
+    height: 25px;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-inline: 5px;
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+}
+
+#input .shout-btn{
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background:#F2717E;
+    border-color: #F2717E;
+    font-family: Georgia, monospace, serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 1px 1px #714861;
+}
+
+.error{
+    background: rgb(255, 62, 62);
+    color: white;
+    border-radius: 35px;
+    line-height: normal;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px){
+    #input input[type='text']{
+        width: 98%;
+    }
+}
